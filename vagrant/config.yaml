@@ -1,15 +1,15 @@
 admin_password: admin
-version: latest
+version: v2.4.8
 ROS_version: 1.5.1
 # Empty defaults to latest non-experimental available
-k8s_version: ""
+k8s_version: "1.18.16"
 server:
   cpus: 1
-  memory: 1500
+  memory: 2048
 node:
   count: 1
   cpus: 1
-  memory: 1500
+  memory: 2048
 ip:
   master: 172.22.101.100
   server: 172.22.101.101
